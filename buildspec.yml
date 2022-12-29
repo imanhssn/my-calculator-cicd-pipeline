@@ -13,10 +13,9 @@ phases:
   build:
     commands:
       - echo Building...
-      - npm run-script build
+      - npm run build
 artifacts:
   files:
-    - public/**/*
-    - src/**/*
-    - package.json
-    - package-lock.json
+    - "**/*"
+  discard-paths: no
+  base-directory: build
