@@ -21,5 +21,4 @@ artifacts:
     - public/**/*
     - src/**/*
     - package.json
-  discard-paths: no
-  base-directory: dist
+    - package-lock.json
